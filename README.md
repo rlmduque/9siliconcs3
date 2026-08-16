@@ -7,4 +7,5 @@
 
 # Quarter 1
 ## Activities
-* [Computational Skills](https://youtube.com)
+* [Computational Skills](https://google.com)
+* [Chinese Zodiac Computation](https://github.com/rlmduque/9siliconcs3/tree/d4072a8e3949165ea6e8f01a8d00fd6e6145d730/zodiacSectionLN.md)
