@@ -7,3 +7,4 @@
 
 # Quarter 1
 ## Activities
+* [Computational Skills](https://youtube.com)
