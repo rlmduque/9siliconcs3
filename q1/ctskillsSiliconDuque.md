@@ -27,6 +27,7 @@ The main problem in the canteen is because most processes are being handled manu
 2. Cashiers have to manually calculate money.
 ### Pseudocode
 
+```text
 START
 SET inventory AS ARRAY
 SET prices AS ARRAY
@@ -100,4 +101,6 @@ SET total TO total + a
 ELIF choice = 5 THEN
 	BREAK
 END
+```
+
 ---
