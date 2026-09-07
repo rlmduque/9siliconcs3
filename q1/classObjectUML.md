@@ -6,7 +6,6 @@
 |---|---|---|
 | Name of Store | string | Name of the store |
 | Name of Store Owner | string | Name of the store's owner |
-| Type of Store | string | Indicates the common theme of the store |
 | Available Products | int | Shows how many products are available |
 | Availability | boolean | Indicates the store's availability |
 ## Methods
