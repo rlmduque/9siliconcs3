@@ -12,3 +12,8 @@
 - Finished on 08/21/26
 - Discovers the 4 pillars of OOP and applies it in real-world scenarios
 - Due on 08/21/26
+
+### Activity 4 (OOPAct):
+- Finished Part 1 on 09/07/26
+- Explores the concept of classes and its properties
+- Part 1 due on 09/07/26, Part 2 due on 09/08/26
