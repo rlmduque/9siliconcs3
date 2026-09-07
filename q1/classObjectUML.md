@@ -17,7 +17,7 @@
 | freezeAccount() | Freezes account |
 | unfreezeAccount() | Unfreezes account |
 ## Class Diagram
-[Class Diagram](q1/images/classDiagram.png)
+[Class Diagram](q1/images/classDiagram (2).png)
 ## Design Explanation
 ### Why did you choose this class?
 I chose this class because I believe that bank accounts demonstrate the OOP classes clearly. It is one of the main real-life applications of OOP that we commonly use.
