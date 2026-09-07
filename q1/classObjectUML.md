@@ -1,27 +1,27 @@
 # SG4 - Understanding Classes and Objects
-## Store
-## A store is where people buy products provided by the store owner.
+## Bank Account
+## A bank account helps users store their money virtually and gives users the ability to pay within a tap of a finger.
 ## Properties
 | Property | Data Type | Description |
 |---|---|---|
-| Name of Store | string | Name of the store |
-| Name of Store Owner | string | Name of the store's owner |
-| Available Products | int | Shows how many products are available |
-| Availability | boolean | Indicates the store's availability |
+| Name of Owner | string | Name of the bank account's owner |
+| PIN | integer | The bank account's PIN |
+| Balance | float | The bank account's total balance |
+| Frozen | Boolean | Indicates if the account is frozen |
 ## Methods
 | Method | Description |
 |---|---|
-| addProducts() | Adds products into the program |
-| removeProducts() | Removes products out of the program |
-| editProduct(productname : string, price : float) | Edits product information |
-| displayProduct() | Displays the product/s available |
-
+| deposit(amount : float) | Deposits money into the bank account |
+| withdraw(amount : float) | Withdraws money out of the bank account |
+| displayBalance() | Displays balance for the user |
+| freezeAccount() | Freezes account |
+| unfreezeAccount() | Unfreezes account |
 ## Class Diagram
-![Class Diagram](q1/images/classDiagram.png)
+[Class Diagram](q1/images/classDiagram.png)
 ## Design Explanation
 ### Why did you choose this class?
-I chose this class because I believe that stores are one of the important parts of economy. They are a way to exchange items and bring currency into the economy which I find fascinating.
+I chose this class because I believe that bank accounts demonstrate the OOP classes clearly. It is one of the main real-life applications of OOP that we commonly use.
 ### Which property is the most important? Why?
-The availability because it asks if the store is available in the first place. If the store isn't available then the other methods are unusable. This is because if the availability of the store is unknown, we cannot determine when to use the other functions.
+The bank account's status (if it is frozen or not) is the most important among all because it asks if the bank account is available int he first place. If the store isn't available/is frozen then the other methods are unable to perform their tasks. If the status of the bank account were to be unknown, we cannot determine when to use the other functions.
 ### Which method is the most useful? Why?
-In my opinion, the most useful method among the three I listed down is displayProduct(). Without this method, the user is unable to know the products available before even considering to add or remove one. This is important because the displayProduct() function allows the user to know what they even want to add or delete and allows store monitoring.
+In my opinion, the most useful method among the three I listed down is displayBalance(). Without this method, the user is unable to figure out their remaining balance. Without this function, the user is unable to know if they still have enough money to deposit or withdraw.
