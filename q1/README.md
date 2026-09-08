@@ -14,6 +14,6 @@
 - Due on 08/21/26
 
 ### Activity 4 (OOPAct):
-- Finished Part 1 on 09/07/26
+- Finished Part 1 on 09/07/26, Finished Part 2 on 09/08/26
 - Explores the concept of classes and its properties
 - Part 1 due on 09/07/26, Part 2 due on 09/08/26
