@@ -4,18 +4,18 @@
 ## Properties
 | Property | Data Type | Description |
 |---|---|---|
-| Name of Owner | string | Name of the bank account's owner |
-| PIN | integer | The bank account's PIN |
-| Balance | float | The bank account's total balance |
-| Frozen | Boolean | Indicates if the account is frozen |
+| + Account Holder | string | Name of the account holder |
+| - PIN | integer | The bank account's PIN |
+| - Balance | float | The bank account's total balance |
+| + Frozen | Boolean | Indicates if the account is frozen |
 ## Methods
 | Method | Description |
 |---|---|
-| deposit(amount : float) | Deposits money into the bank account |
-| withdraw(amount : float) | Withdraws money out of the bank account |
-| displayBalance() | Displays balance for the user |
-| freezeAccount() | Freezes account |
-| unfreezeAccount() | Unfreezes account |
+| + deposit(amount : float) | Deposits money into the bank account |
+| + withdraw(amount : float) | Withdraws money out of the bank account |
+| + displayBalance() | Displays balance for the user |
+| + freezeAccount() | Freezes account |
+| + unfreezeAccount() | Unfreezes account |
 ## Class Diagram
 ![Class Diagram](images/classDiagram.png)
 ## Design Explanation
