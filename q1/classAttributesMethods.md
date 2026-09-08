@@ -1,7 +1,7 @@
 # Class Attributes and Methods
 ## Previous Design
 Link to my previous activity:
-[classObjectUML.md](q1/classObjectUML.md)
+[classObjectUML.md](https://github.com/rlmduque/9siliconcs3/blob/b234e38a9ccb44caafa66cd9edf0e3591cc367f6/q1/classObjectUML.md)
 ## Design Revision
 Describe any changes made to your original class.
 ## Visibility Decisions
@@ -12,14 +12,14 @@ Describe any changes made to your original class.
 | Balance | float | Private | The account's balance must be private so that outside input wouldn't easily change the balance and cause issues. |
 | Frozen | Boolean | Public | The bank account's status must be public because the purpose of frozen status is to be accessible without a PIN in case suspicious activity needs the account to be frozen. |
 ## Updated UML Class Diagram
-![Class Diagram](q1/images/classDiagram.png)
+![Class Diagram](https://github.com/rlmduque/9siliconcs3/blob/b234e38a9ccb44caafa66cd9edf0e3591cc367f6/q1/images/classDiagram.png)
 ## Python Implementation
 
-[View Python Source](q1/classImplementation.py)
+[View Python Source](https://github.com/rlmduque/9siliconcs3/blob/b234e38a9ccb44caafa66cd9edf0e3591cc367f6/q1/classImplementation.py)
 ## Test Run
-![Test Run](q1/images/classTestRun.png)
+![Test Run](https://github.com/rlmduque/9siliconcs3/blob/b234e38a9ccb44caafa66cd9edf0e3591cc367f6/q1/images/classTestRun.png)
 ## Object Diagram
-![Object Diagram](images/objectDiagram.png)
+![Object Diagram](https://github.com/rlmduque/9siliconcs3/blob/b234e38a9ccb44caafa66cd9edf0e3591cc367f6/q1/images/objectDiagram.png)
 ## Analysis
 ### Why did you make your chosen attribute private?
 I chose PIN to be private so that the PIN of the bank account won't be easily changed and compromised. Meanwhile, I made balance private so that it won't be easily altered by cybercriminals.
