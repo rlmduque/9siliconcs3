@@ -44,4 +44,27 @@ class BankAccount:
         self.frozen = False
         return "Account has been unfrozen."
 
-    
+account1 = BankAccount("Osamu Dazai", "6767", 1000, False)
+account2 = BankAccount("Nakahara Chuuya", "4621", 5000, True)
+
+print("")
+print("----- CURRENT STATUS OF ACCOUNTS -----")
+print("Account Balance of Account 1:", account1.displayBalance("6767"))
+print("Account Balance of Account 2:", account2.displayBalance("4621"))
+
+print("")
+print("----- DEPOSITING 500 TO ACCOUNT 1 -----")
+print("Account Balance of Account 1:", account1.deposit(500, "6767"))
+
+print("")
+print("----- UNFREEZING ACCOUNT 2 -----")
+print("Account Status of Account 2:", account2.unfreezeAccount())
+
+print("")
+print("----- WITHDRAWING 2000 FROM ACCOUNT 2 -----")
+print("Account Balance of Account 2:", account2.withdraw(2000, "4621"))
+
+print("")
+print("----- AFTER TRANSACTIONS -----")
+print("Account Balance of Account 1:", account1.displayBalance("6767"))
+print("Account Balance of Account 2:", account2.displayBalance("4621"))
