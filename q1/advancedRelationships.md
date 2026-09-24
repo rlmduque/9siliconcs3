@@ -8,9 +8,9 @@
      - Class 2: Debit Card
   2. My current design has a repeated structure and the relationship between the two classes is weak.
 ## Inheritance Relationship
-      Parent: Bank Account
-      Child: Check Account
-      Explanation: A check account is a specific form of bank accounts which allows users to deposit, withdraw, and pay for daily expenses through debit cards or checks.
+Parent: Bank Account
+Child: Check Account
+Explanation: A check account is a specific form of bank accounts which allows users to deposit, withdraw, and pay for daily expenses through debit cards or checks.
 ## Inheritance UML
 ![Inheritance](images/inheritanceDiagram.png)
 ## Composition/Aggregation
