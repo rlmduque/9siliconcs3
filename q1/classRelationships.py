@@ -1,8 +1,8 @@
 class BankAccount:
     def __init__(self, account_holder, PIN, balance, frozen):
         self.account_holder = account_holder
-        self._PIN = PIN
-        self._balance = balance
+        self.__PIN = PIN
+        self.__balance = balance
         self.frozen = frozen
         self.cards = []
 
