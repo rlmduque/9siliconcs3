@@ -1,8 +1,8 @@
 class BankAccount:
     def __init__(self, account_holder, PIN, balance, frozen):
         self.account_holder = account_holder
-        self.__PIN = PIN
-        self.__balance = balance
+        self._PIN = PIN
+        self._balance = balance
         self.frozen = frozen
 
     def deposit(self, amount, PIN):
@@ -56,4 +56,14 @@ class CheckAccount(BankAccount):
     if totalamount > self.balance:
       return f"Insufficient funds. Please try again."
       return super().withdraw(total_amount, PIN)
-  
+
+class DebitCard:
+    def __init__(self, bank_account, bank_number):
+      self.bank_account = bank_account
+      self.__bank_number = bank_number
+
+    def display_info(self):
+      return f"\nCard number: {self.__bank_number}\nOwner: {self.bank_account.account_holder}"
+
+    def purchase(self, amount, PIN):
+      return self.bank_account.withdraw(amount, PIN)
