@@ -1,3 +1,5 @@
+## Quarter 1
+
 ### Activity 1 (CT Skills):
 - Finished on 08/21/26
 - Application of the 4 Computational Thinking Skills learned from CS 2
@@ -17,3 +19,10 @@
 - Finished Part 1 on 09/07/26, Finished Part 2 on 09/08/26
 - Explores the concept of classes and its properties
 - Part 1 due on 09/07/26, Part 2 due on 09/08/26
+
+## Quarter 2
+
+### Activity 3 (SG 8 Encapsulation):
+- Finished Activity 3 on 10/15/26
+- Explores the function of encapsulation and accessibility inside and outside the class
+- Due on 10/19/26
