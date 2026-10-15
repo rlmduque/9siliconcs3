@@ -1,3 +1,5 @@
+## Quarter 1
+
 ### Activity 1 (CT Skills):
 - Finished on 08/21/26
 - Application of the 4 Computational Thinking Skills learned from CS 2
