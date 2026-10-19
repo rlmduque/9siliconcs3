@@ -12,3 +12,8 @@
 * [OOP Concept](https://github.com/rlmduque/9siliconcs3/blob/ab8283a6083de355ed4a0fbf074b90bae7fdcfe2/q1/ila_oop.md)
 * [OOPAct Part I](https://github.com/rlmduque/9siliconcs3/blob/ab8283a6083de355ed4a0fbf074b90bae7fdcfe2/q1/classObjectUML.md)
 * [OOPAct Part II](https://github.com/rlmduque/9siliconcs3/blob/ab8283a6083de355ed4a0fbf074b90bae7fdcfe2/q1/classAttributesMethods.md)
+
+# Quarter 2
+## Activities
+* [SG8 Encapsulation](https://github.com/rlmduque/9siliconcs3/blob/3db62f274c6e970e1d7509afbdf646bd075d52f3/q2/sg8_encapsulation.py)
+* [SG9 Inheritance](https://github.com/rlmduque/9siliconcs3/blob/3db62f274c6e970e1d7509afbdf646bd075d52f3/q2/sg9_inheritance.py)
