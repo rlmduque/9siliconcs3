@@ -9,7 +9,6 @@ class Animal:
         return f"{self._name} makes a sound."
         
 class Lion(Animal):
-    
     def make_sound(self):
         return f"{self._name} roars loudly!"
     def eat(self):
