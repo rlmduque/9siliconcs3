@@ -17,3 +17,4 @@
 ## Activities
 * [SG8 Encapsulation](https://github.com/rlmduque/9siliconcs3/blob/3db62f274c6e970e1d7509afbdf646bd075d52f3/q2/sg8_encapsulation.py)
 * [SG9 Inheritance](https://github.com/rlmduque/9siliconcs3/blob/3db62f274c6e970e1d7509afbdf646bd075d52f3/q2/sg9_inheritance.py)
+* [SG10 Method Overriding](https://github.com/rlmduque/9siliconcs3/blob/de06abc49bea75bcc0c2349e42f6e2ce2a91262f/q2/sg10_methodoverriding.py)
