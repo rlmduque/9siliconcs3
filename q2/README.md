@@ -24,10 +24,18 @@ While making this code, I learned that inheritance is a way to use a class' code
 ### Reflection:
 While making this code, I was coding it on my phone during an event. With this activity, I realized that when you learn the fundamentals, you are able to find the branches of those fundamentals easily. All I had to do in this code was copy and paste the function from the parent class and modify it according to what the lesson guide asked. I also realized that this method is called "Method Overriding" because I am pasting the same method from the parent class but I "modify" the code inside that method, essentially __overriding__ the original code. I also found out that it is not necessary to add "super().__init__" if only the methods are modified. The only instance where I can use "super().__init__" in inheritance is when I wish to add a new attribute.
 
-### Activity 1 (SG 11 Polymorphism):
+### Activity 1 and 2 (SG 11 Polymorphism):
 - Finished Activity 1 on 11/10/2026
 - Uses Polymorphism to essentially reuse a Parent function's attributes while overriding methods
 - Due on 11/16/2026
 
 ### Reflection:
-With this activity, I realized that the last activity is directly related to specifically this pillar of OOP. Polymorphism is the OOP Pillar which allows a single interface to branch to different classes. Polymorphism is related to Method Overriding because Method Overriding involves a parent class and a child class that modifies or overrides the already existing methods of the parent class which can be inferred as an application of Polymorphism.
+With this activity, I realized that the last activity is directly related to specifically this pillar of OOP. Polymorphism is the OOP Pillar which allows a single interface to branch to different classes. Polymorphism is related to Method Overriding because Method Overriding involves a parent class and a child class that modifies or overrides the already existing methods of the parent class which can be inferred as an application of Polymorphism. 
+
+### Activity 2 (SG 11 Polymorphism):
+- Finished Activity 2 on 11/10/2026
+- Reflection and simple code on Polymorphism
+- Due on 11/16/2026
+
+### Reflection:
+In Activity 2, I also realized that there is also another way of implementing Polymorphism other than Inheritance. This "other way" is Duck Typing. Duck typing is a type system wherein the program does not check the type of an object but rather the minimum requirements of the object during run time. Because duck typing lets users have the same method name across different unlinked classes, it allows a different method of Polymorphism without inheritance.
